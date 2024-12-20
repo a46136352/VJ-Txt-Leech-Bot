@@ -52,7 +52,7 @@ async def upload(bot: Client, m: Message):
     x = await input.download()
     await input.delete(True)
 
-    path = f"./downloads/{m.-1002194644711}"
+    path = f"./downloads/{m.Chat.id}"
 
     try:
        with open(x, "r") as f:
